@@ -67,9 +67,6 @@
                   <li class="nav-item px-2">
                       <a class="nav-link text-white" href="about.html">About</a>
                     </li>
-                  <!-- <li class="nav-item px-2">
-                    <a class="nav-link text-white" href="#">How We Help</a>
-                  </li> -->
                   <li class="nav-item px-2">
                     <a class="nav-link text-white" href="contact.html">Contact</a>
                   </li>
@@ -131,18 +128,14 @@
 
 
  <div class="container-fluid">
-    <div class="container px-5 py-5">
+    <div class="container px-0 px-md-5 py-0 py-lg-5">
         <div class="row p-4 mb-3" >
 
-            <div class="col-3 py-5 mx-5 mt-5">
-                <img src="images/0-1.jpg" style="width: 98%;
-                border: 7px solid #444c33;
-                border-radius: 140px;">
-            
-
+            <div class="text-center col-12 col-lg-3 col-xl-3 py-3 py-lg-5 mx-0 mt-0 mt-lg-5">
+                <img class="head-shot-img" src="images/0-1.jpg">
             </div>
             
-            <div class="col-8 py-4 px-5" style="background-color: #f1f1f1;box-shadow: 25px 25px #444c33;">
+            <div class="col-12 col-lg-9 col-xl-8 px-3 py-4 px-lg-5" style="background-color: #f1f1f1;box-shadow: 25px 25px #444c33;">
                 <h1 class="h1 mb-3" style="color:#444c33;font-weight: bold;">
                     About
                 </h1>
@@ -175,112 +168,22 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
 
 <style>
+        .head-shot-img{
+        width: 98%;
+        border: 7px solid #444c33;
+        border-radius: 140px;
+    }
 
 
-
-@media only screen and (max-width: 768px) {
- .align-text-center{
-    text-align: center!important;
- }
-
- .icon-mobile-size{
-    width: 150px;
- }
-}  
- 
-
- .heading-h2{
-    letter-spacing: 3px;
-    font-weight: 300;
-    color: #565194;
- }
-  .product-img{
-      max-width: 300px;
-  }
-
-  .text-card-img-center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-    .hero {
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: 100% 100%;
-      background-image: url("images/city-brick-red-brick-building.jpg")
-    }
-      
-    @media (max-width: 576px){
-        .hero {
-          background-repeat: no-repeat;
-          background-position: center center;
-          background-size: 100% 100%;
-          /* set height to be same as image dimensions ratio of 1004/750 compared to full width of screen */
-          height: calc( 100vw * 501/1485);
-
-        }
-    }
-    
-    @media (min-width: 576px){
-        .hero {
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: 100% 100%;
-            height: calc( 100vw * 501/1485);
-            background-image: url("images/187-kent-avenue-01.jpg")
-        }
-    }
-      
-    .hero-textbox{
-          padding-top: 20%;
-    }
-      
-    
-      
-    @media (max-width: 2000px){
-        .hero-textbox{
-          padding-top: 15%;
-        }
-    }
-      
-    @media (max-width: 1200px){
-        .hero-textbox{
-          padding-top: 8%;
-        }
-    }
-      
-    @media (max-width: 768px){
-        .hero-textbox{
-          padding-top: 1%;
-        }
-    }
-      
-    @media (min-width: 2001px){
-        .hero-textbox{
-          padding-top: 25%;
+        @media (max-width: 991px){
+        .head-shot-img{
+            width: 50%;
+            border: 7px solid #444c33;
+            border-radius: 140px;
         }
     }
 
-    @media (max-width: 1400px){
-        .card{
-        height: 500px;
-        }
-    }
-       
-    .card{
-        border: none!important;
-        background-color: #f3f3f4;
-        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
-        margin-top: -45px;
-        z-index: -1;
-        height: 410px;
-    }
-
-
-    
-    </style>
+</style>
                 
             
     
