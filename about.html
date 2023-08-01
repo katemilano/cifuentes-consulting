@@ -135,7 +135,7 @@
                 <img class="head-shot-img" src="images/0-1.jpg">
             </div>
             
-            <div class="col-12 col-lg-9 col-xl-8 px-3 py-4 px-lg-5" style="background-color: #f1f1f1;box-shadow: 25px 25px #444c33;">
+            <div class="col-12 col-lg-9 col-xl-8 px-3 py-4 px-lg-5 text-box-about" style="">
                 <h1 class="h1 mb-3" style="color:#444c33;font-weight: bold;">
                     About
                 </h1>
@@ -174,12 +174,23 @@
         border-radius: 140px;
     }
 
+    .text-box-about{
+        background-color: #f1f1f1;
+        box-shadow: 25px 25px #444c33;
+    }
 
         @media (max-width: 991px){
         .head-shot-img{
             width: 50%;
             border: 7px solid #444c33;
             border-radius: 140px;
+        }
+    }
+
+        @media (max-width: 576px){
+        .text-box-about{
+            background-color: #f1f1f1;
+            box-shadow: none;
         }
     }
 

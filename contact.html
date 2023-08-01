@@ -130,19 +130,63 @@
 
 
  <div class="container-fluid">
-    <div class="container my-2 px-md-0 px-5 py-0 py-lg-4">
+    <div class="container my-2 px-md-0 px-0 px-md-5 py-0 py-lg-4">
         <div class="row p-4 mb-3" >
-            <div class="col-lg-5 py-3 px-5 mt-5" style="background-color: #f1f1f1;box-shadow: 25px 25px #444c33;height: 300px;">
-                <h1 class="h1 mb-3 mt-5" style="color:#444c33;font-weight: bold;">
+            <div class="col-12 col-sm-12 col-lg-5 py-0 py-md-3 px-3 px-md-5 mt-2 mt-md-5 text-box-contact" style="">
+                <h1 class="h1 mb-3 mt-3 mt-md-5" style="color:#444c33;font-weight: bold;">
                     Contact
                 </h1>
-                <h5 style="color:#444c33;">
+                <h5 class="h5-contact" style="color:#444c33;">
                     Have questions? Let's navigate finances together. Reach out for expert advice and a reassuring financial partnership.
                 </h5>
 
+                <div class="d-block d-sm-block d-md-block d-lg-none">
+                    <h5 class="mb-3 h5-contact" style="color:#444c33;font-weight: bold;">
+
+                        <i style="    color: #444c33;
+                        border-radius: 60px;
+                        background-color: #f3f3f4;
+                        padding: 16px;
+                        box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1), 0 6px 12px 0 rgba(0,0,0,0) !important;" class='fa fa-envelope fa-1x'></i>
+
+                    Email
+                </h5>
+                <h5 class="mb-4 h5-contact">
+                    jcifuentes@cifuentesconsulting.com
+                </h5>
+                <h5 class="mb-3 h5-contact" style="color:#444c33;font-weight: bold;">
+                    <i style="    color: #444c33;
+                    border-radius: 60px;
+                    background-color: #f3f3f4;
+                    padding: 16px;
+                    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1), 0 6px 12px 0 rgba(0,0,0,0) !important;" class='fa fa-phone fa-1x'></i>
+
+                    Phone
+                </h5>
+                <h5 class="mb-4 h5-contact">
+                    (315) 877-1221 
+                </h5>
+
+                <h5 class="mb-3 h5-contact" style="color:#444c33;font-weight: bold;">
+                    <i style="    color: #444c33;
+                    border-radius: 60px;
+                    background-color: #f3f3f4;
+                    padding: 16px;
+                    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1), 0 6px 12px 0 rgba(0,0,0,0) !important;" class='fa fa-linkedin fa-1x'></i>
+
+                    LinkedIn
+                </h5>
+                <h5 class="h5-contact">
+                    <a style="color:#444c33;" href="https://www.linkedin.com/in/jhonathon-cifuentes-23ab6662/">
+                       Click Here 
+                    </a>
+                </h5>
+
+                </div>
+
             </div>
 
-            <div class="contact-list col-12 col-lg-5 py-5 px-0 mx-0 px-lg-5 mx-lg-5">
+            <div class="d-none d-sm-none d-md-none d-lg-block contact-list col-12 col-lg-5 py-5 px-0 mx-0 px-lg-5 mx-lg-5">
                 
                 <h5 class="mb-0" style="color:#444c33;font-weight: bold;">
 
@@ -208,20 +252,42 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
 
 <style>
-.contact-list{
-    text-align: left;
-}
-
-
-@media (max-width: 991px){
-        .contact-list{
-            text-align: center;
-        }
+    .contact-list{
+        text-align: left;
     }
 
 
-    
-    </style>
+    @media (max-width: 991px){
+            .contact-list{
+                text-align: center;
+            }
+    }
+
+    .text-box-contact{
+        background-color: #f1f1f1;
+        box-shadow: 25px 25px #444c33;
+        height: 300px;
+    }
+
+    @media (max-width: 991px){
+            .text-box-contact{
+                height: 550px;
+            }
+    }
+
+    @media (max-width: 566px){
+            .text-box-contact{
+                height: 550px;
+                box-shadow: none;
+
+            }
+
+            .h5-contact{
+                font-size: 1rem;
+            }
+    }
+        
+</style>
                 
             
     
